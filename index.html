@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>7 лаба</title>
+</head>
+<body>
+    <section id="intro-container" class="container">
+		<h1>Вывод записей</h1>
+        <p>
+			Для того, чтобы вывести все записи, просто нажмите на кнопку "Вывести записи".
+		</p>
+		
+		<button class="show_all_btn">Вывести все</button>
+    	
+        <p>
+            Если вы хотите вывести записи одного конкретного автора, необходимо указать его id, например 1
+        </p>
+		<input type="text" placeholder="Введиет id автора" id="post__user" class="creator">
+		<button class="post-avtor">Вывести записи одного автора</button>
+
+		<div class="wrapper">
+            <div class="posts_list"></div>
+		</div>
+	</section>
+    <script src="lr7.js"></script>
+</body>
+</html>
